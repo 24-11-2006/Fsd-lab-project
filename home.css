@@ -1,0 +1,53 @@
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html, body {
+ height: 100%;
+ width: 100%;
+ }
+ body {
+ background-image:
+ url("https://static.vecteezy.com/system/resources/previews/001/311/554/original/education-and-back-to-school-concept-free-vector.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .head {
+ color:white;
+ font-size: 58px;
+ padding-top: 230px;
+ margin-left: 50px;
+ }
+ .para{
+ color:white;
+font-size: 27px;
+ margin-left:180px;
+ }
+ .button{
+ color:white;
+ border-color:white;
+ background-color:transparent;
+ border-radius:10px;
+ height:50px;
+ width:120px;
+ font-size:20px;
+ margin-top:30px;
+ border-style:solid;
+ }
+ .button:hover {
+ background-color:white;
+ color:#0c2b4a;
+ border-color:#0c2b4a;
+ }
+ .button1{
+ margin-left:260px;
+ }
+ .button2{
+ margin-left:60px;
+ }
+ .button3{
+ margin-right:30px;
+ }
+ 
