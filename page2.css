@@ -3,10 +3,12 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ max-width:800px;
  }
  html, body {
  height: 100%;
  width: 100%;
+ max-width:800px;
  }
 body {
  background-image:url("https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg");
@@ -18,7 +20,10 @@ body {
  align-items: center; /* Center vertically */
  height: 100vh; /* Ensure full viewport height */
  margin:0;
- }
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
  .card-container {
  background-color: white;
  height: 65%;
@@ -26,6 +31,9 @@ body {
  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
  padding: 50px;
  text-align:center;
+ max-width: 100%;
+ max-height: 80vh;
+ overflow-y: auto;
  }
  .p1head{
  text-align:center;
@@ -33,6 +41,9 @@ body {
  font-size:40px;
  margin-bottom:30px;
  font-weight:bold;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  .input-field{
  background:#eaeaea;
@@ -40,6 +51,9 @@ body {
  margin-bottom:15px;
  border-radius:3px;
  padding:10px;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  input{
  background:transparent;
@@ -48,9 +62,15 @@ body {
  padding:10px 0px;
  width:100%;
  font-size:16px;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  .input-field svg {
  margin-right: 10px; /* Add space between icon and input */
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  .p1para{
  color:#203c54;
@@ -65,12 +85,21 @@ border-color:white;
  font-size:20px;
  margin-top:15px;
  border-style:solid;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  .button:hover {
  background-color:white;
  color:#0c2b4a;
  border-color:#0c2b4a;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
  .button1{
  margin-left:120px;
+ max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
  }
